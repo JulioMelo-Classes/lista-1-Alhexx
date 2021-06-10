@@ -14,5 +14,6 @@ int main(void)
     if(v[i]<0) cont++;
   }
   cout<<cont;
+  cont=0;
   return 0;
 }
