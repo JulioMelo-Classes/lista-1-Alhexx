@@ -1,6 +1,7 @@
 #include <iostream>
 using std::cin;
 using std::cout;
+using std::endl;
 
 const int SIZE = 5; // input size.
 
@@ -13,7 +14,7 @@ int main(void)
     cin>>v[i];
     if(v[i]<0) cont++;
   }
-  cout<<cont;
+  cout<<cont<<endl;
   cont=0;
   return 0;
 }
