@@ -1,14 +1,4 @@
-/*!
- * @brief This code implements the "Soma Vizinhos" programming problem
- * @author selan
- * @data June, 6th 2021
- */
 #include <iostream>
-/*
-using std::cout;
-using std::cin;
-using std::endl;
-*/
 using namespace std;
 
 int main( void )
@@ -22,8 +12,7 @@ int main( void )
     if(b>0)
     {
       for(int i=a; i<a+b;i++)
-      {
-        
+      {       
         soma+=i;
         //cout<<i<<" ";
       }
