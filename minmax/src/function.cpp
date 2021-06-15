@@ -10,10 +10,18 @@
  * @return A pair of indexes to the first smallest and last largest values.
  */
 
-std::pair<int,int> min_max( int V[], size_t n )
+std::pair<int,int> min_max( int V[], std::size_t n )
 {
-    // TODO: Adicione aqui sua solução.
+  int ma=0, mi=0;
+  if(n==0) return { -1, -1 };
 
-    // TODO: Isso é apenas um STUB. Substitua com seu retorno correto.
-    return { -1, -1 };
+  for(int i=0; i<n; i++)
+  {
+      if(V[i]<V[mi]) mi=i;
+      if(V[i]>=V[ma]) ma=i;
+      
+  }
+  return { mi, ma };
 }
+
+//cat ../tests/main.cpp
