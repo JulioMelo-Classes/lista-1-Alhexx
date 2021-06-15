@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/runner/Lista-1/lista-1-Alhexx/fibonacci/src/function.cpp
+function.h
+/home/runner/Lista-1/lista-1-Alhexx/fibonacci/src/function.h
+
+/home/runner/Lista-1/lista-1-Alhexx/fibonacci/src/function.h
+vector
+-
+
