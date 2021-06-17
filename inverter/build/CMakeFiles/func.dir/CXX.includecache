@@ -7,16 +7,10 @@
 #IncludeRegexTransform: 
 
 /home/runner/lp1/lista-1-Alhexx/inverter/src/function.cpp
-function.h
-/home/runner/lp1/lista-1-Alhexx/inverter/src/function.h
-iterator
+iostream
 -
-
-/home/runner/lp1/lista-1-Alhexx/inverter/src/function.h
 array
 -
-string
+iterator
 -
-function.cpp
-/home/runner/lp1/lista-1-Alhexx/inverter/src/function.cpp
 

@@ -1,5 +1,5 @@
-#include "function.h"
-
+#include <iostream>
+#include <array>
 #include <iterator>
 using std::iter_swap;
 
@@ -12,19 +12,14 @@ template <size_t SIZE>
 void reverse( std::array< std::string, SIZE > & arr )
 {
   int tam_v=arr.size();
+  std::string aux1, aux2;
   
-  if(tam_v%2==0)
+  for(int i= 0;i<(tam_v/2);i++)
   {
-    for(int i= 0;i<(tam_v/2);i--)
-    {
-      iter_swap((arr.begin()+i), (arr.end()-i));     
-    }
+    aux1=arr[(tam_v-1)-i];
+    aux2=arr[i];
+    arr[i]=arr[(tam_v-1)-i];
+    arr[(tam_v-1)-i]=aux2;
   }
-  else
-  {
-    for(int i= 0;i<((tam_v-1)/2);i--)
-    {
-      iter_swap((arr.begin()+i), (arr.end()-i));     
-    }
-  }
+ 
 }
