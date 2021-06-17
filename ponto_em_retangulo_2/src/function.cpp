@@ -5,7 +5,20 @@
  */
 location_t pt_in_rect( const Ponto &IE, const Ponto &SD, const Ponto &P )
 {
-    // TODO: Adicione seu código aqui.
-
+  if( (P.x<SD.x && P.x>IE.x) && (P.y<SD.y && P.y>IE.y))
+  {
+    return location_t::INSIDE;
+  }
+  else if( (P.y==IE.y && (P.x<=SD.x && P.x>=IE.x)) || (P.y==SD.y && (P.x<=SD.x && P.x>=IE.x)) || (P.x==SD.x && (P.y<=SD.y && P.y>=IE.y)) || (P.x==IE.x && (P.y<=SD.y && P.y>=IE.y)) )
+  {
+    return location_t::BORDER;
+  }
+  else if(P.y<IE.y || P.y>SD.y || P.x<IE.x || P.x>SD.x)
+  {
     return location_t::OUTSIDE;
+  }
+  else 
+  {
+    return location_t::INVALID;
+  }
 }
