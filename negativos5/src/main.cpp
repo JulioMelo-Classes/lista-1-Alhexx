@@ -9,6 +9,7 @@ int main(void)
 {
   int v[5], cont=0;
 
+  /*mais uma vez desnecessário usar um vetor, mas ok!*/
   for(int i=0;i<SIZE;i++)
   {
     cin>>v[i];

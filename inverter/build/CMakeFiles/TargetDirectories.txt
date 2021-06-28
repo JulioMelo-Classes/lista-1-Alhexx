@@ -1,5 +1,0 @@
-/home/runner/lp1/lista-1-Alhexx/inverter/build/CMakeFiles/edit_cache.dir
-/home/runner/lp1/lista-1-Alhexx/inverter/build/CMakeFiles/run_tests.dir
-/home/runner/lp1/lista-1-Alhexx/inverter/build/CMakeFiles/rebuild_cache.dir
-/home/runner/lp1/lista-1-Alhexx/inverter/build/CMakeFiles/func.dir
-/home/runner/lp1/lista-1-Alhexx/inverter/build/CMakeFiles/all_tests.dir

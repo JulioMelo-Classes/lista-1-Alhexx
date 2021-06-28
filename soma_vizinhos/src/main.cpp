@@ -5,6 +5,7 @@ int main( void )
 {
   int a, b;
   bool rodando = true;
+  /*blz, não entendendi esse "rodando", mas ok*/
   while(cin>>a>>b)
   {
     int soma=0;

@@ -1,4 +1,0 @@
-/home/runner/lp1/lista-1-Alhexx/intervalos/build/CMakeFiles/rebuild_cache.dir
-/home/runner/lp1/lista-1-Alhexx/intervalos/build/CMakeFiles/program.dir
-/home/runner/lp1/lista-1-Alhexx/intervalos/build/CMakeFiles/edit_cache.dir
-/home/runner/lp1/lista-1-Alhexx/intervalos/build/CMakeFiles/verify.dir

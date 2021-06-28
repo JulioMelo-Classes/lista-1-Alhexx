@@ -21,6 +21,7 @@ using std::max;
 
 int main(void)
 {
+  /*blz, faltou adicionar algumas condições caso o retângulo não fosse no formato esperado, mas vou considerar!*/
   Ponto IE, SD, P;
   while(cin>>IE.x>>IE.y>>SD.x>>SD.y>>P.x>>P.y)
   {

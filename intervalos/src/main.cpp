@@ -13,6 +13,8 @@ int main(void)
   int x, n1=0, n2=0, n3=0, n4=0, n5=0;
   double p1=0, p2=0, p3=0, p4=0, p5=0, nx=0;
   std::vector<int> v;
+
+  /*realmente não precisava de um vetor neste caso, mas ok*/
   while(cin >> std::ws >> x)
   {
     v.push_back(x);

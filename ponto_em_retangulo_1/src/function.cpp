@@ -6,6 +6,7 @@
 
 location_t pt_in_rect( const Ponto &IE, const Ponto &SD, const Ponto &P )
 {
+  /*ok */
   if( (P.x<SD.x && P.x>IE.x) && (P.y<SD.y && P.y>IE.y))
   {
     return location_t::INSIDE;

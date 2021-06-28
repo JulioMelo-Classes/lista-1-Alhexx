@@ -1,5 +1,0 @@
-/home/runner/Lista-1/lista-1-Alhexx/fibonacci/build/CMakeFiles/edit_cache.dir
-/home/runner/Lista-1/lista-1-Alhexx/fibonacci/build/CMakeFiles/run_tests.dir
-/home/runner/Lista-1/lista-1-Alhexx/fibonacci/build/CMakeFiles/rebuild_cache.dir
-/home/runner/Lista-1/lista-1-Alhexx/fibonacci/build/CMakeFiles/func.dir
-/home/runner/Lista-1/lista-1-Alhexx/fibonacci/build/CMakeFiles/all_tests.dir

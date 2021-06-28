@@ -1,4 +1,0 @@
-/home/runner/Lista-1/lista-1-Alhexx/soma_vizinhos/build/CMakeFiles/rebuild_cache.dir
-/home/runner/Lista-1/lista-1-Alhexx/soma_vizinhos/build/CMakeFiles/program.dir
-/home/runner/Lista-1/lista-1-Alhexx/soma_vizinhos/build/CMakeFiles/edit_cache.dir
-/home/runner/Lista-1/lista-1-Alhexx/soma_vizinhos/build/CMakeFiles/verify.dir

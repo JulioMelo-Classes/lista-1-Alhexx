@@ -14,6 +14,7 @@ void reverse( std::array< std::string, SIZE > & arr )
   int tam_v=arr.size();
   std::string aux1, aux2;
   
+  /*boa, vc poderia usar std::swap tb*/
   for(int i= 0;i<(tam_v/2);i++)
   {
     aux1=arr[(tam_v-1)-i];
